@@ -1,0 +1,27 @@
+This is a simple Python program for a Magic Number Guessing Game. In this game, the computer randomly selects a magic number between 1 and 50, and the player's goal is to guess the magic number with the fewest attempts.
+
+Code Explanation
+
+Here's how the code works:
+  Import the random module to generate a random magic number.
+  Generate a random magic number between 1 and 50 and store it in the magic variable.
+  Initialize a variable count to keep track of the number of attempts the player makes.
+  The game then enters a loop that continues until the player guesses the correct number. Within the loop:
+    Increment the count variable by 1 to keep track of the number of attempts.
+    Prompt the user to enter their guess with the input function. The entered value is converted to an integer and stored in the user variable.
+    Compare the user's guess with the magic number using if, elif, and else statements.
+    If the user's guess is lower than the magic number, a message is printed indicating that the guess is too low.
+    If the user's guess is higher than the magic number, a message is printed indicating that the guess is too high.
+    If the user's guess matches the magic number, a congratulations message is printed, along with the number of attempts it took to guess correctly.
+    The loop continues until the user guesses the correct number, at which point the break statement is used to exit the loop and end the game.
+
+How to Play
+  Run the Python program.
+  The program will generate a random magic number between 1 and 50.
+  You will be prompted to enter your guess.
+  Enter your guess and press Enter.
+  The program will provide feedback on whether your guess is too low, too high, or correct.
+  Repeat steps 3-5 until you correctly guess the magic number.
+  Once you guess the correct number, the program will display the number of attempts it took to guess correctly, and the game will end.
+
+Enjoy playing the Magic Number Guessing Game!
